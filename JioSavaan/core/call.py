@@ -17,8 +17,6 @@ from JioSavaan.utils.database import (add_active_chat, add_active_video_chat,
                                        is_autoend, music_on,
                                        remove_active_chat,
                                        remove_active_video_chat, set_loop)
-from JioSavaan import (seconds_to_min,
-                                         speed_converter)
 from JioSavaan import stream_markup
 from JioSavaan import auto_clean
 from JioSavaan.utils.thumbnails import get_thumb
