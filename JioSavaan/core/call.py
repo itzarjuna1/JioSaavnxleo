@@ -11,19 +11,19 @@ from pytgcalls.pytgcalls_session import PyTgCallsSession
 
 import config
 from JioSavaan import LOGGER, YouTube, app
-from Jiosavaan import db
-from Jiosavaan.utils.database import (add_active_chat, add_active_video_chat,
+from JioSavaan import db
+from JioSavaan.utils.database import (add_active_chat, add_active_video_chat,
                                        get_lang, get_loop, group_assistant,
                                        is_autoend, music_on,
                                        remove_active_chat,
                                        remove_active_video_chat, set_loop)
-from Jiosavaan import capture_internal_err
-from Jiosavaan import AssistantErr
-from Jiosavaan import (check_duration, seconds_to_min,
+from JioSavaan import capture_internal_err
+from JioSavaan import AssistantErr
+from JioSavaan import (check_duration, seconds_to_min,
                                          speed_converter)
-from Jiosavaan import stream_markup
-from Jiosavaan import auto_clean
-from Jiosavaan.utils.thumbnails import get_thumb
+from JioSavaan import stream_markup
+from JioSavaan import auto_clean
+from JioSavaan.utils.thumbnails import get_thumb
 from strings import get_string
 
 
