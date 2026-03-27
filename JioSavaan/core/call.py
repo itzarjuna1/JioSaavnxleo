@@ -10,20 +10,20 @@ from pytgcalls import PyTgCalls, exceptions, types
 from pytgcalls.pytgcalls_session import PyTgCallsSession
 
 import config
-from Jiosaavn import LOGGER, YouTube, app
-from Jiosaavn.misc import db
-from Jiosaavn.utils.database import (add_active_chat, add_active_video_chat,
+from Jiosavaan import LOGGER, YouTube, app
+from Jiosavaan import db
+from Jiosavaan.utils.database import (add_active_chat, add_active_video_chat,
                                        get_lang, get_loop, group_assistant,
                                        is_autoend, music_on,
                                        remove_active_chat,
                                        remove_active_video_chat, set_loop)
-from Jiosaavn.utils.errors import capture_internal_err
-from Jiosaavn import AssistantErr
-from Jiosaavn import (check_duration, seconds_to_min,
+from Jiosavaan import capture_internal_err
+from Jiosavaan import AssistantErr
+from Jiosavaan import (check_duration, seconds_to_min,
                                          speed_converter)
-from Jiosaavn import stream_markup
-from Jiosaavn import auto_clean
-from Jiosaavn.utils.thumbnails import get_thumb
+from Jiosavaan import stream_markup
+from Jiosavaan import auto_clean
+from Jiosavaan.utils.thumbnails import get_thumb
 from strings import get_string
 
 
