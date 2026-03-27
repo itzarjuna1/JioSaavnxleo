@@ -11,7 +11,7 @@ from pytgcalls.pytgcalls_session import PyTgCallsSession
 
 import config
 from JioSavaan import LOGGER, YouTube, app
-from JioSavaan import db
+from JioSavaan import dbb
 from JioSavaan.utils.database import (add_active_chat, add_active_video_chat,
                                        get_lang, get_loop, group_assistant,
                                        is_autoend, music_on,
