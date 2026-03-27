@@ -10,7 +10,7 @@ from pytgcalls import PyTgCalls, exceptions, types
 from pytgcalls.pytgcalls_session import PyTgCallsSession
 
 import config
-from Jiosavaan import LOGGER, YouTube, app
+from JioSavaan import LOGGER, YouTube, app
 from Jiosavaan import db
 from Jiosavaan.utils.database import (add_active_chat, add_active_video_chat,
                                        get_lang, get_loop, group_assistant,
