@@ -19,7 +19,8 @@ from JioSavaan.utils.database import (add_active_chat, add_active_video_chat,
                                        remove_active_video_chat, set_loop)
 
 
-from JioSavaan import auto_clean
+
+
 from JioSavaan.utils.thumbnails import get_thumb
 from strings import get_string
 
